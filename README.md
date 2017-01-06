@@ -1,4 +1,5 @@
 # Jay MOULIN
 Do things
 
-* [InstallDocker.md](InstallDocker.md)
+* [Install Docker easily](InstallDocker.md)
+* [Bandcamp Downloader - Google chrome extension](bandcamp-down-chrome-ext/)

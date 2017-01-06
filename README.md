@@ -2,4 +2,4 @@
 Do things
 
 * [Install Docker easily](InstallDocker.md)
-* [Bandcamp Downloader - Google chrome extension](bandcamp-down-chrome-ext/)
+* [Bandcamp Downloader - Google chrome extension](https://jaymoulin.github.io/bandcamp-down-chrome-ext/)

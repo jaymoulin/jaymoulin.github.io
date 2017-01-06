@@ -12,7 +12,7 @@ sudo curl -sSL https://get.docker.com | sh
 sudo usermod -aG docker ${USER}
 ```
 
-#Install Docker-compose
+# Install Docker-compose
 
 Installation is maintained at https://docs.docker.com/compose/install/ but it will look like that:
 

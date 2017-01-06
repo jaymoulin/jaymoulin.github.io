@@ -1,7 +1,3 @@
----
-layout: post
-title: Install docker easily
----
 # Install docker
 
 If you didn't install Docker yet, you can do it with a simple command :

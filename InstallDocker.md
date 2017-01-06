@@ -14,7 +14,7 @@ sudo usermod -aG docker ${USER}
 
 # Install Docker-compose
 
-Installation is maintained at https://docs.docker.com/compose/install/ but it will look like that:
+Installation is maintained at [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/) but it will look like that:
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.9.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose

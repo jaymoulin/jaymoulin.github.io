@@ -1119,15 +1119,7 @@ select {
 }
 .landing-page .social-container {
   margin-top: 30px;
-}
-.landing-page .social-container .twitter-tweet {
-  display: inline-block;
-  margin-right: 5px;
-  position: relative;
-  top: 5px;
-}
-.landing-page .social-container .fab-like {
-  display: inline-block;
+  font-size: 24px;
 }
 .cards-section {
   padding: 60px 0;

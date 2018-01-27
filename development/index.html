@@ -92,22 +92,129 @@
                             </div><!--//section-block-->
 
                             <div id="docker-plex" class="section-block">
-                                <h3 class="block-title">Docker Plex</h3>
-                                <p>
-                                    Docker Plex
-                                </p>
-                                <div class="callout-block callout-info">
-                                    <div class="icon-holder">
-                                        <i class="fab fa-github"></i>
-                                    </div><!--//icon-holder-->
-                                    <div class="content">
-                                        <h4 class="callout-title">Github</h4>
-                                        <p>
-                                            You can contribute to this project on <a href="https://github.com/jaymoulin/docker-plex">Github (github.com/jaymoulin/docker-plex)</a>
-                                        </p>
-                                    </div><!--//content-->
-                                </div>
-                            </div><!--//section-block-->
+                                <div class="jumbotron text-center">
+                                    <h3 class="block-title"><i class="fa fa-film"></i> Docker Plex</h3>
+                                    <p><img src="https://github.com/jaymoulin/docker-plex/raw/master/logo.png" alt="Docker Plex Logo" class="col-md-12 col-sm-12 col-xs-12"></p>
+                                    <p>This purpose of this project is to install <a href="https://www.plex.tv/"><i class="fa fa-link"></i> Plex Media Server</a> easily on a server (PC/Mac/Linux/RaspberryPi) through Docker technology</p>
+                                    <p>Easy install with a single line of code</p>
+                                    <code><i class="fa fa-terminal"></i> docker run -d --restart=always --name plex -v /mnt/usbdrive:/media --net=host jaymoulin/plex</code>
+                                    <p>and then access to Plex via this url : http://your_machine_ip:32400</p>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-pink" href="https://github.com/jaymoulin/docker-plex"><i class="fab fa-github"></i> Github</a>
+                                        <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/jaymoulin/plex"><i class="fab fa-docker"></i> Docker</a>
+                                        <a class="btn btn-cta btn-orange" href="https://freewallet.org/id/374ad82e/btc/"><i class="fab fa-bitcoin"></i> Donate Bitcoin</a>
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-green" href="https://twitter.com/DockerPlex"><i class="fab fa-twitter"></i> Twitter</a>
+                                        <a class="btn btn-cta btn-purple" href="https://www.paypal.me/jaymoulin"><i class="fab fa-paypal"></i> Donate PayPal</a>
+                                        <a class="btn btn-cta btn-red" href="https://freewallet.org/id/374ad82e/ltc/"><i class="fab fa-bitcoin"></i> Donate Litecoin</a>
+                                    </div>
+                                </div><!--//jumbotron-->
+                            </div>
+
+                            <div id="docker-jdownloader" class="section-block">
+                                <div class="jumbotron text-center">
+                                    <h3 class="block-title"><i class="fa fa-cloud-download-alt"></i> Docker JDownloader</h3>
+                                    <p><img src="https://github.com/jaymoulin/docker-jdownloader/raw/master/logo.png" alt="Docker Jdownloader Logo" class="col-md-12 col-sm-12 col-xs-12"></p>
+                                    <p>This purpose of this project is to install <a href="https://www.plex.tv/"><i class="fa fa-link"></i> JDownloader</a> easily on a server (PC/Mac/Linux/RaspberryPi) through Docker technology</p>
+                                    <p>Easy install with a single line of code</p>
+                                    <code><i class="fa fa-terminal"></i> docker run -d --restart=always -v ~/Downloads:/root/Downloads -v ~/jdownloader/cfg:/opt/JDownloader/cfg --name jdownloader jaymoulin/jdownloader</code>
+                                    <p>All documentation available on <a href="https://github.com/jaymoulin/docker-jdownloader/blob/master/README.md"><i class="fab fa-github"></i> Github</a> </p>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-pink" href="https://github.com/jaymoulin/docker-jdownloader"><i class="fab fa-github"></i> Github</a>
+                                        <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/jaymoulin/jdownloader"><i class="fab fa-docker"></i> Docker</a>
+                                        <a class="btn btn-cta btn-orange" href="https://freewallet.org/id/374ad82e/btc/"><i class="fab fa-bitcoin"></i> Donate Bitcoin</a>
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-purple" href="https://www.paypal.me/jaymoulin"><i class="fab fa-paypal"></i> Donate PayPal</a>
+                                        <a class="btn btn-cta btn-red" href="https://freewallet.org/id/374ad82e/ltc/"><i class="fab fa-bitcoin"></i> Donate Litecoin</a>
+                                    </div>
+                                </div><!--//jumbotron-->
+                            </div>
+
+                            <div id="keeptune" class="section-block">
+                                <div class="jumbotron text-center">
+                                    <h3 class="block-title"><i class="fa fa-music"></i> KeepTune</h3>
+                                    <p><img src="/assets/images/keeptune.png" alt="Keeptune Logo"></p>
+                                    <p>Google Chrome Extension to download on Bandcamp, Soundcloud, Spotify...</p>
+                                    <div class="callout-block callout-danger">
+                                        <div class="icon-holder">
+                                            <i class="fa fa-thumbs-down"></i>
+                                        </div><!--//icon-holder-->
+                                        <div class="content">
+                                            <h4 class="callout-title">Not Open Source - But Free to download</h4>
+                                            <p>
+                                                This project has been stolen so I now keep my source code private but this is still downloadable on <i class="fab fa-chrome"></i> Chrome Webstore
+                                            </p>
+                                        </div><!--//content-->
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-pink" href="https://github.com/jaymoulin/keeptune"><i class="fab fa-github"></i> Github (stolen sources)</a>
+                                        <a class="btn btn-cta btn-green" href="https://chrome.google.com/webstore/detail/keeptune/oidamlgjlcjhdpkflfefcemhmfpmlfbj"><i class="fab fa-chrome"></i> Download on Chrome</a>
+                                        <a class="btn btn-cta btn-orange" href="https://freewallet.org/id/374ad82e/btc/"><i class="fab fa-bitcoin"></i> Donate Bitcoin</a>
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-purple" href="https://www.paypal.me/jaymoulin"><i class="fab fa-paypal"></i> Donate PayPal</a>
+                                        <a class="btn btn-cta btn-red" href="https://freewallet.org/id/374ad82e/ltc/"><i class="fab fa-bitcoin"></i> Donate Litecoin</a>
+                                    </div>
+                                </div><!--//jumbotron-->
+                            </div>
+
+                            <div id="google-music-manager" class="section-block">
+                                <div class="jumbotron text-center">
+                                    <h3 class="block-title"><i class="fa fa-headphones"></i> Google Music Manager - Python Daemon</h3>
+                                    <p><img src="https://github.com/jaymoulin/google-music-manager/raw/master/logo.png" alt="Google Music Manager Logo"></p>
+                                    <p>Daemon to upload/download Google Music Library to Google Music</p>
+                                    <p>Easy install with a simple lines of code</p>
+                                    <p><code><i class="fa fa-terminal"></i> pip install google-music-manager-auth</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> pip install google-music-manager-uploader</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> pip install google-music-manager-downloader</code></p>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <h6>Download easy usage </h6>
+                                        <ol>
+                                            <li>Auth : <code><i class="fa fa-terminal"></i> google&#8209;music&#8209;auth</code></li>
+                                            <li>Download : <code><i class="fa fa-terminal"></i> cd /your/download/folder && google&#8209;music&#8209;download</code></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <h6>Upload easy usage </h6>
+                                        <ol>
+                                            <li>Auth : <code><i class="fa fa-terminal"></i> google&#8209;music&#8209;auth</code></li>
+                                            <li>Upload : <code><i class="fa fa-terminal"></i> cd /your/upload/folder && google&#8209;music&#8209;upload</code></li>
+                                        </ol>
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-green" href="https://pypi.org/project/google-music-manager-auth/"><i class="fab fa-python"></i> Python Auth Module</a>
+                                        <a class="btn btn-cta btn-blue" href="https://pypi.org/project/google-music-manager-downloader/"><i class="fab fa-python"></i> Python Download Module</a>
+                                        <a class="btn btn-cta btn-orange" href="https://freewallet.org/id/374ad82e/btc/"><i class="fab fa-bitcoin"></i> Donate Bitcoin</a>
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-red" href="https://pypi.org/project/google-music-manager-uploader/"><i class="fab fa-python"></i> Python Upload Module</a>
+                                        <a class="btn btn-cta btn-purple" href="https://www.paypal.me/jaymoulin"><i class="fab fa-paypal"></i> Donate PayPal</a>
+                                        <a class="btn btn-cta btn-pink" href="https://freewallet.org/id/374ad82e/ltc/"><i class="fab fa-bitcoin"></i> Donate Litecoin</a>
+                                        <a class="btn btn-cta btn-green" href="https://github.com/jaymoulin/google-music-manager"><i class="fab fa-github"></i> Github</a>
+                                    </div>
+                                </div><!--//jumbotron-->
+                            </div>
+
+                            <div id="docker-google-cloudprint" class="section-block">
+                                <div class="jumbotron text-center">
+                                    <h3 class="block-title"><i class="fa fa-print"></i> Docker Google CloudPrint</h3>
+                                    <p><img src="https://github.com/jaymoulin/docker-google-cloudprint/raw/master/logo.png" alt="Docker Google CloudPrint Logo"></p>
+                                    <p>Easily share your printer over the web thanks to Docker technology and Google CloudPrint (Linux/PC/Mac/RaspberryPi...)</p>
+                                    <p>Easy install with a single line of code</p>
+                                    <code><i class="fa fa-terminal"></i> docker run &#8209;d &#8209;&#8209;privileged &#8209;&#8209;restart=always &#8209;v /dev/bus/usb:/dev/bus/usb &#8209;v "$HOME/.cloudprint/":/root &#8209;&#8209;name cloudprint &#8209;e CUPS_USER_ADMIN=admin &#8209;e CUPS_USER_PASSWORD=password &#8209;p 631:631 jaymoulin/google&#8209;cloudprint</code>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-green" href="https://github.com/jaymoulin/docker-google-cloudprint"><i class="fab fa-github"></i> Github</a>\
+                                        <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/jaymoulin/google-cloudprint"><i class="fab fa-docker"></i> Docker</a>
+                                        <a class="btn btn-cta btn-orange" href="https://freewallet.org/id/374ad82e/btc/"><i class="fab fa-bitcoin"></i> Donate Bitcoin</a>
+                                    </div>
+                                    <div class="list list-inline center-block">
+                                        <a class="btn btn-cta btn-purple" href="https://www.paypal.me/jaymoulin"><i class="fab fa-paypal"></i> Donate PayPal</a>
+                                        <a class="btn btn-cta btn-pink" href="https://freewallet.org/id/374ad82e/ltc/"><i class="fab fa-bitcoin"></i> Donate Litecoin</a>
+                                    </div>
+                                </div><!--//jumbotron-->
+                            </div>
 
                             <div id="step2" class="section-block">
                                 <h3 class="block-title">Step Two</h3>

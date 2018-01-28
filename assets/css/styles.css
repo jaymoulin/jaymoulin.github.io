@@ -935,6 +935,7 @@ select {
   top: 15px;
 }
 .affix,
+.affix-top,
 .affix-bottom {
   width: 230px;
 }

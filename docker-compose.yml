@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+    site:
+        image: httpd:alpine
+        restart: always
+        ports:
+            - 80:80
+        volumes:
+            - ${PWD}:/usr/local/apache2/htdocs/

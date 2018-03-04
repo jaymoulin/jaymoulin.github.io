@@ -78,7 +78,7 @@
                             <div id="femtopixel-introduction" class="section-block">
                                 <h3>Introduction</h3>
                                 <p>
-                                    <img src="/assets/images/femtopixel.gif">
+                                    <img src="/assets/images/femtopixel.gif" class="col-md-12 col-sm-12 col-xs-12">
                                 </p>
                                 <p>
                                     FemtoPixel is a company I founded for development and computer engineering. I had to create some professional tools to ease my work and made most of them available freely on <a href="https://github.com/femtopixel"><i class="fab fa-github"></i> Github</a>
@@ -102,7 +102,7 @@
                                     <p><img src="https://github.com/femtopixel/docker-google-lighthouse/raw/master/logo.png" alt="Docker Google Lighthouse Logo" class="col-md-12 col-sm-12 col-xs-12"></p>
                                     <p>Lighthouse analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.</p>
                                     <p>Easy install with a single line of code</p>
-                                    <p><code><i class="fa fa-terminal"></i> docker run &#8209;&#8209;rm &#8209;&#8209;name lighthouse &#8209;it &#8209;v /path/to/your/report:/home/chrome/reports &#8209;&#8209;cap&#8209;add=SYS_ADMIN femtopixel/google-lighthouse &lt;your_site_url> &lt;optional_args></code></p>
+                                    <p><code><i class="fa fa-terminal"></i> docker run --rm --name lighthouse -it -v /path/to/your/report:/home/chrome/reports --cap-add=SYS_ADMIN femtopixel/google-lighthouse &lt;your_site_url> &lt;optional_args></code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/femtopixel/docker-google-lighthouse"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/femtopixel/google-lighthouse"><i class="fab fa-docker"></i> Docker</a>
@@ -159,7 +159,7 @@
                                     <p><img src="https://i.imgur.com/e1dg1Lv.gif" alt="Stacks CLI - Docker Logo" class="col-md-12 col-sm-12 col-xs-12"></p>
                                     <p>Analyze website stack from the terminal</p>
                                     <p>Easy install with a single line of code</p>
-                                    <p><code><i class="fa fa-terminal"></i> docker run &#8209;&#8209;rm &#8209;ti femtopixel/stacks-cli</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> docker run --rm -ti femtopixel/stacks-cli</code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/femtopixel/docker-stacks-cli"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/femtopixel/stacks-cli"><i class="fab fa-docker"></i> Docker</a>
@@ -178,7 +178,7 @@
                                     <p><img src="https://github.com/femtopixel/docker-google-chrome-headless/raw/master/logo.png" alt="Google Chrome Headless - Docker Logo" class="col-md-12 col-sm-12 col-xs-12"></p>
                                     <p>Google Chrome Headless is the Google Chromium browser that can be started without graphical interface to accomplish several tasks (PDF printing, performance, automation...)</p>
                                     <p>Easy install with a single line of code</p>
-                                    <p><code><i class="fa fa-terminal"></i> docker run &#8209;&#8209;rm &#8209;&#8209;name chrome &#8209;it &#8209;p 9222:9222 &#8209;&#8209;cap&#8209;add SYS_ADMIN femtopixel/google-chrome-headless &lt;optional_args> &lt;optional_site_url> </code></p>
+                                    <p><code><i class="fa fa-terminal"></i> docker run --rm --name chrome -it -p 9222:9222 --cap-add SYS_ADMIN femtopixel/google-chrome-headless &lt;optional_args> &lt;optional_site_url> </code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/femtopixel/docker-google-chrome-headless"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/femtopixel/google-chrome-headless"><i class="fab fa-docker"></i> Docker</a>
@@ -198,10 +198,10 @@
                                     <p>Get notified when a specific package got a new release.</p>
                                     <p>Easy install with a single line of code</p>
                                     <h6><i class="fab fa-docker"></i> Docker</h6>
-                                    <p><code><i class="fa fa-terminal"></i> docker run &#8209;&#8209;name GRN &#8209;d &#8209;v /path/to/your/saves:/root/.github_release_notifier/ femtopixel/github-release-notifier</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> docker run --name GRN -d -v /path/to/your/saves:/root/.github_release_notifier/ femtopixel/github-release-notifier</code></p>
                                     <p>or</p>
                                     <h6><i class="fab fa-python"></i> Python</h6>
-                                    <p><code><i class="fa fa-terminal"></i> pip3 install github&#8209;release&#8209;notifier</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> pip3 install github-release-notifier</code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/femtopixel/github-release-notifier"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/femtopixel/github-release-notifier"><i class="fab fa-docker"></i> Docker</a>
@@ -283,7 +283,7 @@
                                     <p><code><i class="fa fa-terminal"></i> pip3 install google_closure_compiler_api</code></p>
                                     <p>or</p>
                                     <h6>Docker</h6>
-                                    <p><code><i class="fa fa-terminal"></i> docker run &#8209;&#8209;rm &#8209;ti &#8209;v /path/to/my/file.js:/root/myfile.js femtopixel/google&#8209;closure&#8209;compiler &#8209;&#8209;js /root/myfile.js</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> docker run --rm -ti -v /path/to/my/file.js:/root/myfile.js femtopixel/google-closure-compiler --js /root/myfile.js</code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/femtopixel/docker-google-closure-compiler-api"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/femtopixel/google-closure-compiler/"><i class="fab fa-docker"></i> Docker</a>
@@ -303,7 +303,7 @@
                                     <p><img src="https://github.com/femtopixel/docker-google-closure-compiler-api/raw/master/logo.png" alt="Google Closure Compiler APP - Docker Image Logo"></p>
                                     <p>Compile your JS code using Google Closure Compiler APP in CLI</p>
                                     <p>Easy install with a single line of code</p>
-                                    <p><code><i class="fa fa-terminal"></i> docker run &#8209;&#8209;rm &#8209;ti &#8209;v /path/to/my/file.js:/root/myfile.js femtopixel/google&#8209;closure&#8209;compiler&#8209;app &#8209;&#8209;js /root/myfile.js</code></p>
+                                    <p><code><i class="fa fa-terminal"></i> docker run --rm -ti -v /path/to/my/file.js:/root/myfile.js femtopixel/google-closure-compiler-app --js /root/myfile.js</code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/femtopixel/docker-google-closure-compiler-api/tree/master/app"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/femtopixel/google-closure-compiler-app/"><i class="fab fa-docker"></i> Docker</a>
@@ -356,7 +356,7 @@
 
                             <div id="docker-kompose" class="section-block">
                                 <div class="jumbotron text-center">
-                                    <h3 class="block-title"><i class="fa fa-wrench"></i> Docker Kompose</h3>
+                                    <h3 class="block-title"><i class="fas fa-cloud"></i> Docker Kompose</h3>
                                     <p><img src="https://github.com/femtopixel/docker-kompose/raw/master/logo.png" alt="Docker Kompose Logo"></p>
                                     <p>Docker image (multiarch) to convert docker-compose syntax to Kubertnetes syntax</p>
                                     <div class="list list-inline center-block">
@@ -578,7 +578,7 @@
                                     <p><img src="https://github.com/logi-ce/docker-tsung/raw/master/logo.png" alt="Tsung Docker Image Logo"></p>
                                     <p>Load testing tool in docker</p>
                                     <p>Easy install with a single line of code</p>
-                                    <p><code><i class="fab fa-terminal"></i> docker run &#8209;d &#8209;&#8209;name tsung &#8209;v /path/to/local/folder/for/scenario:/root/.tsung/ &#8209;p 8090:8090 &#8209;p 8091:8091 castelislogice/tsung </code></p>
+                                    <p><code><i class="fab fa-terminal"></i> docker run -d --name tsung -v /path/to/local/folder/for/scenario:/root/.tsung/ -p 8090:8090 -p 8091:8091 castelislogice/tsung </code></p>
                                     <div class="list list-inline center-block">
                                         <a class="btn btn-cta btn-pink" href="https://github.com/logi-ce/docker-tsung"><i class="fab fa-github"></i> Github</a>
                                         <a class="btn btn-cta btn-blue" href="https://hub.docker.com/r/castelislogice/tsung/"><i class="fab fa-docker"></i> Docker</a>

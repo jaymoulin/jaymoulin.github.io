@@ -1,9 +1,0 @@
-{
-  "name": "pointsoverlay",
-  "version": "1.0.0",
-  "description": "Twitch Channel Points Overlay",
-  "main": "index.js",
-  "repository": "https://github.com/33kk/twitch-points-overlay",
-  "author": "33KK <goncarmarko@gmail.com>",
-  "license": "MIT"
-}
